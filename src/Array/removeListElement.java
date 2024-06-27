@@ -22,7 +22,7 @@ public class removeListElement {
             j = i;
             while (++j < arr.length && arr[j] != val);
             itv++;
-            // put element ahead by itv
+            // put element belonging to (i , j) ahead by itv
             while (++i < j) {
                 arr[i - itv] = arr[i];
             }
